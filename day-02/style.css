@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dce6df;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-02-hero-banner {
+  width: 64%;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6ddcf;
+  border-radius: 22px;
+  padding: 48px;
+}
+
+.new-collection {
+  display: inline-block;
+  color: #7a5b3a;
+  margin-bottom: 12px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.day-02-hero-banner h1 {
+  font-size: 42px;
+  font-weight: normal;
+  letter-spacing: -2px;
+  word-spacing: 0.8px;
+}
+
+.day-02-hero-banner p {
+  margin-top: 18px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #665c50;
+}
+
+.cta-button {
+  font-family: inherit;
+  padding: 15px 25px;
+  cursor: pointer;
+  border: none;
+  background-color: #174b32;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 9px;
+  transition: 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #07351d;
+}
+
+.hero-banner-image {
+  width: 350px;
+}
